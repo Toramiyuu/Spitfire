@@ -196,7 +196,7 @@ a { text-decoration: none; color: inherit; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url('images/hero-placeholder.jpg') center/cover no-repeat;
+  background: url('images/hero.jpg') center/cover no-repeat;
   background-color: var(--color-bg-dark);
 }
 
