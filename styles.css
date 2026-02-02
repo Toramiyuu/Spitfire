@@ -658,6 +658,20 @@ a { text-decoration: none; color: inherit; }
   color: var(--color-text);
 }
 
+.testimonial-demo {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: var(--color-border);
+  color: var(--color-text-muted);
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
 /* ========================================
    GALLERY
    ======================================== */
