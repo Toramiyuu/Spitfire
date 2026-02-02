@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPITFIRE | Aussie Burgers & Wings - George Town, Penang</title>
+  <meta name="description" content="Award-winning Australian gourmet burgers, buffalo wings & gyros in George Town, Penang. From Melbourne to Penang — Spitfire Penang Restaurant.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SPITFIRE | Aussie Burgers & Wings - George Town, Penang">
+  <meta property="og:description" content="Award-winning Australian gourmet burgers, buffalo wings & gyros. From Melbourne to Penang.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:url" content="https://toramiyuu.github.io/Spitfire/">
+  <meta property="og:locale" content="en_MY">
+  <meta property="og:site_name" content="Spitfire Penang">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SPITFIRE | Aussie Burgers & Wings - George Town, Penang">
+  <meta name="twitter:description" content="Award-winning Australian gourmet burgers, buffalo wings & gyros in George Town.">
+
+  <!-- Geo Meta -->
+  <meta name="geo.region" content="MY-07">
+  <meta name="geo.placename" content="George Town, Penang">
+  <meta name="geo.position" content="5.4186;100.3381">
+
+  <link rel="canonical" href="https://toramiyuu.github.io/Spitfire/">
+  <link rel="sitemap" type="application/xml" href="sitemap.xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=1">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Spitfire Penang Restaurant",
+    "description": "Award-winning Australian gourmet burger bar & grill with military aviation theme in George Town, Penang. From Melbourne to Penang.",
+    "url": "https://toramiyuu.github.io/Spitfire/",
+    "telephone": "+601167484422",
+    "servesCuisine": ["Australian", "Burgers", "Wings", "Grill"],
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "102 Lebuh Muntri",
+      "addressLocality": "George Town",
+      "addressRegion": "Penang",
+      "postalCode": "10200",
+      "addressCountry": "MY"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 5.4186,
+      "longitude": 100.3381
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "11:00", "closes": "23:00" }
+    ],
+    "menu": "https://toramiyuu.github.io/Spitfire/#menu",
+    "acceptsReservations": true,
+    "founder": [
+      { "@type": "Person", "name": "Amir Khan" },
+      { "@type": "Person", "name": "Doris Khan" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <span class="loader-text">SPITFIRE</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">SPITFIRE</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#awards">Awards</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#hours">Visit</a>
+        <a href="https://wa.me/601167484422?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20from%20Spitfire%20Penang." target="_blank" rel="noopener" class="nav-cta">Order Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-hours-badge" id="heroBadge" aria-live="polite">
+        <span class="badge-dot"></span>
+        <span class="badge-text">Open today 11:00 AM – 11:00 PM</span>
+      </div>
+      <div class="hero-flags">
+        <svg class="flag-icon" viewBox="0 0 36 24" width="32" height="21"><rect width="36" height="24" fill="#00008B"/><path d="M0 0L15 8.5H13L0 1.5V0ZM36 0V1.5L23 8.5H21L36 0ZM0 24V22.5L13 15.5H15L0 24ZM36 24L21 15.5H23L36 22.5V24Z" fill="#FFF"/><path d="M0 0L15 8.5H14L0 .75V0ZM36 0V.75L22 8.5H21L36 0ZM0 24V23.25L14 15.5H15L0 24ZM36 24L21 15.5H22L36 23.25V24Z" fill="#C8102E"/><rect x="15" width="6" height="24" fill="#FFF"/><rect y="9" width="36" height="6" fill="#FFF"/><rect x="16" width="4" height="24" fill="#C8102E"/><rect y="10" width="36" height="4" fill="#C8102E"/></svg>
+        <span class="flag-divider">×</span>
+        <svg class="flag-icon" viewBox="0 0 36 24" width="32" height="21"><rect width="36" height="12" fill="#CC0001"/><rect y="12" width="36" height="12" fill="#FFF"/><rect x="7" y="5" width="8" height="14" fill="#FFF"/><path d="M11 7L12.2 10.7H16.1L13 13L14.1 16.7L11 14.3L7.9 16.7L9 13L5.9 10.7H9.8Z" fill="#CC0001"/></svg>
+      </div>
+      <p class="hero-subtitle">George Town, Penang</p>
+      <h1 class="hero-title">SPITFIRE</h1>
+      <p class="hero-tagline">Aussie Burgers & Wings</p>
+      <p class="hero-description">Award-winning gourmet burgers from Melbourne — now on Lebuh Muntri</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">View Menu</a>
+        <a href="https://wa.me/601167484422?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20from%20Spitfire%20Penang." target="_blank" rel="noopener" class="btn btn-outline">Order via WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-scroll">SCROLL</div>
+  </section>
+
+  <!-- About / Our Story -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="images/about-placeholder.jpg" alt="Amir and Doris Khan, founders of Spitfire Penang" loading="lazy" width="600" height="700">
+      </div>
+      <div class="about-content">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title">From Melbourne<br>to Penang</h2>
+        <p>Spitfire is the creation of Amir &amp; Doris Khan — a husband-and-wife team who ran the award-winning Spitfire Restaurant &amp; Grill in Rosebud, Melbourne for over 8 years before bringing the concept home to Penang.</p>
+        <p>Amir, Malaysian-born and a former member of the Malaysian Army, grew up in Butterworth near the RAAF base where his father served as a medic. Those childhood memories of war planes sparked a lifelong passion for military memorabilia — and you'll see his collection all over the restaurant walls.</p>
+        <p>With sons Danial and Adam on the team, Spitfire is a true family affair. Doris brings her Melbourne hospitality expertise and serious espresso skills, while Amir does what he's done since childhood — cook food that puts a smile on your face and fills your belly.</p>
+        <p class="about-cta-text">Walk in, grab a seat, and treat yourself to the biggest, juiciest burgers this side of the Strait.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section class="section section-dark" id="menu">
+    <div class="container">
+      <span class="section-label section-label-light">Deploy Your Appetite</span>
+      <h2 class="section-title section-title-light">The Menu</h2>
+      <p class="section-subtitle section-subtitle-light">Award-winning burgers, fiery wings, and authentic gyros — all made fresh to order</p>
+
+      <div class="menu-tabs">
+        <button class="menu-tab active" data-category="burgers">Burgers</button>
+        <button class="menu-tab" data-category="wings">Wings</button>
+        <button class="menu-tab" data-category="gyros">Gyros & Wraps</button>
+        <button class="menu-tab" data-category="sides">Sides</button>
+        <button class="menu-tab" data-category="drinks">Coffee & Drinks</button>
+      </div>
+
+      <div class="menu-featured" id="menuFeatured">
+        <div class="menu-featured-item" data-category="burgers">
+          <img src="images/burger-placeholder.jpg" alt="Spitfire gourmet burger" loading="lazy" width="900" height="500">
+        </div>
+        <div class="menu-featured-item hidden" data-category="wings">
+          <img src="images/wings-placeholder.jpg" alt="Buffalo wings with sauce" loading="lazy" width="900" height="500">
+        </div>
+        <div class="menu-featured-item hidden" data-category="gyros">
+          <img src="images/gyros-placeholder.jpg" alt="Lamb gyros plate" loading="lazy" width="900" height="500">
+        </div>
+        <div class="menu-featured-item hidden" data-category="sides">
+          <img src="images/sides-placeholder.jpg" alt="Loaded fries and sides" loading="lazy" width="900" height="500">
+        </div>
+        <div class="menu-featured-item hidden" data-category="drinks">
+          <img src="images/coffee-placeholder.jpg" alt="Melbourne espresso coffee" loading="lazy" width="900" height="500">
+        </div>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <!-- Burgers -->
+        <div class="menu-item" data-category="burgers">
+          <div class="menu-item-info">
+            <h3>The Spitfire Classic <span class="menu-badge">Signature</span></h3>
+            <p>Our legendary gourmet beef patty, cheddar, lettuce, tomato, house sauce</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item" data-category="burgers">
+          <div class="menu-item-info">
+            <h3>Aussie Outback <span class="menu-badge">Popular</span></h3>
+            <p>Beef patty, beetroot, fried egg, pineapple, bacon, BBQ sauce — the full Aussie</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item" data-category="burgers">
+          <div class="menu-item-info">
+            <h3>Smoky BBQ Bacon</h3>
+            <p>Double-smoked bacon, cheddar, crispy onion rings, smoky BBQ glaze</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item" data-category="burgers">
+          <div class="menu-item-info">
+            <h3>Mushroom Swiss</h3>
+            <p>Sautéed mushrooms, Swiss cheese, garlic aioli, rocket</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item" data-category="burgers">
+          <div class="menu-item-info">
+            <h3>Pulled Pork Bomber</h3>
+            <p>Slow-cooked pulled pork, apple slaw, chipotle mayo</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item" data-category="burgers">
+          <div class="menu-item-info">
+            <h3>Veggie Patrol</h3>
+            <p>Grilled halloumi, roasted vegetables, hummus, baby spinach</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+
+        <!-- Wings -->
+        <div class="menu-item hidden" data-category="wings">
+          <div class="menu-item-info">
+            <h3>Mild <span class="heat-level"><span class="flame active">🔥</span><span class="flame"></span><span class="flame"></span><span class="flame"></span><span class="flame"></span></span></h3>
+            <p>Gentle heat — great for rookies</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="wings">
+          <div class="menu-item-info">
+            <h3>Medium <span class="heat-level"><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame"></span><span class="flame"></span><span class="flame"></span></span></h3>
+            <p>A solid kick — the crowd favourite</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="wings">
+          <div class="menu-item-info">
+            <h3>Hot <span class="heat-level"><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame"></span><span class="flame"></span></span></h3>
+            <p>Bringing the heat — not for the faint-hearted</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="wings">
+          <div class="menu-item-info">
+            <h3>Extra Hot <span class="heat-level"><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame"></span></span></h3>
+            <p>Serious firepower — proceed with caution</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="wings">
+          <div class="menu-item-info">
+            <h3>Kamikaze <span class="menu-badge badge-danger">You've Been Warned</span> <span class="heat-level"><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame active">🔥</span><span class="flame active">🔥</span></span></h3>
+            <p>Maximum heat. No refunds. No mercy. Sign the waiver.</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+
+        <!-- Gyros & Wraps -->
+        <div class="menu-item hidden" data-category="gyros">
+          <div class="menu-item-info">
+            <h3>Lamb Gyros <span class="menu-badge">Popular</span></h3>
+            <p>Spit-roasted lamb, tzatziki, tomato, onion, warm pita</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="gyros">
+          <div class="menu-item-info">
+            <h3>Chicken Gyros</h3>
+            <p>Marinated chicken, garlic sauce, salad, warm pita</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="gyros">
+          <div class="menu-item-info">
+            <h3>Mixed Gyros Plate</h3>
+            <p>Lamb &amp; chicken combo, chips, salad, dips — feeds one hungry soldier</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+
+        <!-- Sides -->
+        <div class="menu-item hidden" data-category="sides">
+          <div class="menu-item-info">
+            <h3>Loaded Fries</h3>
+            <p>Cheese, bacon bits, sour cream, spring onion</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="sides">
+          <div class="menu-item-info">
+            <h3>Onion Rings</h3>
+            <p>Beer-battered, golden & crispy</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="sides">
+          <div class="menu-item-info">
+            <h3>Coleslaw</h3>
+            <p>Fresh house-made, creamy dressing</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+        <div class="menu-item hidden" data-category="sides">
+          <div class="menu-item-info">
+            <h3>Garlic Bread</h3>
+            <p>Toasted with butter &amp; garlic — add cheese for extra</p>
+          </div>
+          <span class="menu-item-price"><!-- UPDATE PRICE --></span>
+        </div>
+
+        <!-- Coffee & Drinks -->
+        <div class="menu-item hidden" data-category="drinks">
+          <div class="menu-item-info">
+            <h3>Melbourne Espresso</h3>
+            <p>Single origin, proper Aussie espresso</p>
+          </div>
+          <span class="menu-item-price">From RM 10</span>
+        </div>
+        <div class="menu-item hidden" data-category="drinks">
+          <div class="menu-item-info">
+            <h3>Flat White <span class="menu-badge">Popular</span></h3>
+            <p>The Aussie classic — velvety smooth, double shot</p>
+          </div>
+          <span class="menu-item-price">From RM 12</span>
+        </div>
+        <div class="menu-item hidden" data-category="drinks">
+          <div class="menu-item-info">
+            <h3>Tiger Beer</h3>
+            <p>Ice-cold draught or bottle</p>
+          </div>
+          <span class="menu-item-price">From RM 18</span>
+        </div>
+        <div class="menu-item hidden" data-category="drinks">
+          <div class="menu-item-info">
+            <h3>Soft Drinks</h3>
+            <p>Coke, Sprite, Fanta, iced lemon tea</p>
+          </div>
+          <span class="menu-item-price">From RM 6</span>
+        </div>
+      </div>
+
+      <p class="menu-note">* Prices may vary. All burgers served with chips. Non-halal establishment.</p>
+    </div>
+  </section>
+
+  <!-- Awards & Recognition -->
+  <section class="section" id="awards">
+    <div class="container">
+      <span class="section-label">Mission Accomplished</span>
+      <h2 class="section-title">Awards & Recognition</h2>
+      <p class="section-subtitle">8+ years of award-winning dining in Melbourne — now serving George Town</p>
+
+      <div class="awards-grid">
+        <div class="award-card">
+          <div class="award-medal gold">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="9" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg>
+          </div>
+          <h3>Best Burger Bar</h3>
+          <p>Victorian Gold 2017 &amp; 2018</p>
+        </div>
+        <div class="award-card">
+          <div class="award-medal gold">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="9" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg>
+          </div>
+          <h3>National Best Burger</h3>
+          <p>Australia Gold 2018</p>
+        </div>
+        <div class="award-card">
+          <div class="award-medal gold">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="9" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg>
+          </div>
+          <h3>Cafe of the Year</h3>
+          <p>Victoria &amp; Tasmania Gold 2018</p>
+        </div>
+        <div class="award-card">
+          <div class="award-medal">
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.27 5.82 21 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3>TripAdvisor</h3>
+          <p>Rated 4.0 — George Town</p>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="testimonials-grid" id="reviewsGrid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The gyros were very good and tasty. Portion sizes are massive — you definitely get your money's worth. Amir and the family are so friendly and welcoming."</p>
+          <div class="testimonial-author">
+            <span class="testimonial-name">TripAdvisor Review</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Best burgers I've had in Penang, hands down. The Aussie Outback burger is unreal — beetroot and egg on a burger just works. Great staff, cool military decor."</p>
+          <div class="testimonial-author">
+            <span class="testimonial-name">Google Review</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★☆</div>
+          <p class="testimonial-text">"Really unique spot in George Town. The military memorabilia is fascinating, food is solid, and the Melbourne coffee is legit. Will be back for the wings next time."</p>
+          <div class="testimonial-author">
+            <span class="testimonial-name">Google Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section section-dark" id="gallery">
+    <div class="container">
+      <span class="section-label section-label-light">Recon Photos</span>
+      <h2 class="section-title section-title-light">The Scene</h2>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-label="The Spitfire Classic">
+          <img src="images/gallery-burger-placeholder.jpg" alt="Spitfire classic gourmet burger" loading="lazy" width="600" height="400">
+        </div>
+        <div class="gallery-item" data-label="Military Memorabilia">
+          <img src="images/gallery-interior-placeholder.jpg" alt="Military memorabilia decorating restaurant walls" loading="lazy" width="600" height="400">
+        </div>
+        <div class="gallery-item" data-label="Buffalo Wings">
+          <img src="images/gallery-wings-placeholder.jpg" alt="Buffalo wings with dipping sauce" loading="lazy" width="600" height="400">
+        </div>
+        <div class="gallery-item" data-label="The Family">
+          <img src="images/gallery-family-placeholder.jpg" alt="Amir and Doris Khan in the restaurant" loading="lazy" width="600" height="400">
+        </div>
+        <div class="gallery-item" data-label="Lamb Gyros">
+          <img src="images/gallery-gyros-placeholder.jpg" alt="Lamb gyros plate with tzatziki" loading="lazy" width="600" height="400">
+        </div>
+        <div class="gallery-item" data-label="The Bar">
+          <img src="images/gallery-bar-placeholder.jpg" alt="Spitfire restaurant bar area" loading="lazy" width="600" height="400">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hours & Location -->
+  <section class="section" id="hours">
+    <div class="container hours-grid">
+      <div class="hours-info">
+        <span class="section-label">Mission Briefing</span>
+        <h2 class="section-title">Visit Us</h2>
+
+        <div class="hours-badge-inline">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <span>Open daily 11:00 AM – 11:00 PM</span>
+        </div>
+
+        <table class="hours-table">
+          <tr><td>Monday</td><td>11:00 AM – 11:00 PM</td></tr>
+          <tr><td>Tuesday</td><td>11:00 AM – 11:00 PM</td></tr>
+          <tr><td>Wednesday</td><td>11:00 AM – 11:00 PM</td></tr>
+          <tr><td>Thursday</td><td>11:00 AM – 11:00 PM</td></tr>
+          <tr><td>Friday</td><td>11:00 AM – 11:00 PM</td></tr>
+          <tr><td>Saturday</td><td>11:00 AM – 11:00 PM</td></tr>
+          <tr><td>Sunday</td><td>11:00 AM – 11:00 PM</td></tr>
+        </table>
+
+        <p class="hours-note">Walk-ins welcome. Look for the Australian flag!</p>
+
+        <div class="hours-address">
+          <p>102 Lebuh Muntri (Muntri Street)<br>10200 George Town, Penang<br>Malaysia</p>
+          <a href="https://maps.app.goo.gl/oeMKhD2P4y7LioLQ6" target="_blank" rel="noopener" class="btn btn-primary">Get Directions</a>
+        </div>
+      </div>
+      <div class="hours-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1986.0!2d100.3381!3d5.4186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac390e3b3e6e1%3A0x3f3c6c0b5c9f5a4d!2s102%20Lebuh%20Muntri%2C%20George%20Town%2C%20Penang!5e0!3m2!1sen!2smy!4v1706000000000"
+          title="Spitfire Penang location on Google Maps"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Reservation -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <span class="section-label section-label-light">Comms</span>
+      <h2 class="section-title section-title-light">Get In Touch</h2>
+      <p class="section-subtitle section-subtitle-light">Order via WhatsApp or just swing by — we love walk-ins</p>
+
+      <div class="reservation-cta">
+        <p>Message us on WhatsApp to order ahead or reserve for a group. Walk-ins always welcome.</p>
+        <div class="reservation-buttons">
+          <a href="https://wa.me/601167484422?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order%20from%20Spitfire%20Penang." target="_blank" rel="noopener" class="btn btn-primary reservation-cta-btn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.243-1.214l-.252-.149-2.868.852.852-2.868-.168-.268A7.962 7.962 0 014 12a8 8 0 1116 0 8 8 0 01-8 8z"/></svg>
+            Order via WhatsApp
+          </a>
+          <a href="tel:+6042626442" class="btn btn-outline-light reservation-cta-btn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Us
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <a href="https://wa.me/601167484422" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          <h3>WhatsApp</h3>
+          <p>+60 11-6748 4422</p>
+        </a>
+        <a href="tel:+6042626442" class="contact-card">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          <h3>Call Us</h3>
+          <p>+60 4-262 6442</p>
+        </a>
+        <a href="https://www.instagram.com/spitfire_penang" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          <h3>Instagram</h3>
+          <p>@spitfire_penang</p>
+        </a>
+        <a href="https://www.facebook.com/Spitfirepenangrestaurant/" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          <h3>Facebook</h3>
+          <p>Spitfire Penang</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="footer-logo">SPITFIRE</span>
+        <p class="footer-tagline">Casual dining that puts a smile on your face and fills your belly.</p>
+        <p class="footer-address">102 Lebuh Muntri, George Town, Penang</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/spitfire_penang" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.facebook.com/Spitfirepenangrestaurant/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://maps.app.goo.gl/oeMKhD2P4y7LioLQ6" target="_blank" rel="noopener" aria-label="Google Maps">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#awards">Awards</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#hours">Visit</a>
+      </div>
+      <div class="footer-hours">
+        <h4>Hours</h4>
+        <p>Open Daily<br>11:00 AM – 11:00 PM</p>
+        <p class="footer-charity">Proudly supporting <strong>Soldier On</strong> — for the health &amp; well-being of soldiers and their families.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 SPITFIRE PENANG. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Mobile CTA Bar -->
+  <div class="mobile-cta-bar" id="mobileCta">
+    <a href="tel:+6042626442" class="mobile-cta-btn mobile-cta-call">Call</a>
+    <a href="https://wa.me/601167484422?text=Hi%2C%20I%27d%20like%20to%20order%20from%20Spitfire%20Penang." target="_blank" rel="noopener" class="mobile-cta-btn mobile-cta-order">Order</a>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+    <div class="lightbox-content">
+      <img class="lightbox-img" id="lightboxImg" src="" alt="">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js?v=1"></script>
+</body>
+</html>
