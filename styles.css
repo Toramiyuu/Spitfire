@@ -667,7 +667,7 @@ body::before {
 
 .about-content p {
   margin-bottom: 20px;
-  color: var(--color-text-muted);
+  color: rgba(240, 234, 223, 0.6);
   line-height: 1.85;
 }
 
@@ -678,7 +678,7 @@ body::before {
   border-left: 3px solid var(--color-gold);
   padding-left: 16px;
   margin-top: 8px;
-  background: rgba(212, 168, 60, 0.06);
+  background: rgba(212, 168, 60, 0.08);
   padding: 12px 16px;
 }
 
@@ -896,7 +896,7 @@ body::before {
 .award-card {
   text-align: center;
   padding: 40px 20px;
-  background: var(--color-bg-card);
+  background: rgba(0, 0, 0, 0.25);
   border: 2px solid var(--color-border);
   border-radius: 0;
   transition: all 0.4s ease;
@@ -951,12 +951,12 @@ body::before {
   letter-spacing: 3px;
   margin-bottom: 8px;
   text-transform: uppercase;
-  color: var(--color-text);
+  color: var(--color-text-light);
 }
 
 .award-card p {
   font-size: 0.85rem;
-  color: var(--color-text-muted);
+  color: rgba(240, 234, 223, 0.5);
 }
 
 /* Testimonials — Field Reports */
@@ -968,7 +968,7 @@ body::before {
 
 .testimonial-card {
   padding: 36px;
-  background: var(--color-bg-card);
+  background: rgba(0, 0, 0, 0.25);
   border: 2px solid var(--color-border);
   border-radius: 0;
   transition: all 0.4s ease;
@@ -1009,7 +1009,7 @@ body::before {
 .testimonial-text {
   font-size: 0.9rem;
   font-style: italic;
-  color: var(--color-text-muted);
+  color: rgba(240, 234, 223, 0.6);
   line-height: 1.7;
   margin-bottom: 16px;
 }
@@ -1019,7 +1019,7 @@ body::before {
   font-size: 0.85rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--color-text);
+  color: var(--color-text-light);
 }
 
 .testimonial-demo {
@@ -1159,7 +1159,7 @@ body::before {
 
 .hours-table td:first-child {
   font-weight: 700;
-  color: var(--color-text);
+  color: var(--color-text-light);
   text-transform: uppercase;
 }
 
@@ -1181,7 +1181,7 @@ body::before {
 }
 
 .hours-address p {
-  color: var(--color-text-muted);
+  color: rgba(240, 234, 223, 0.6);
   margin-bottom: 16px;
   line-height: 1.7;
   font-family: 'Courier New', monospace;
